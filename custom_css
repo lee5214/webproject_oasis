@@ -13,25 +13,28 @@
 }
 #header-wrap.smaller{
     background-image:none;
-}
+}/**********************header background*******************/
+
 
 
 /**********************logo animation*******************/
 @-webkit-keyframes mymove {
-    from {left: -1000px;}
-    to {left: 0px;}
+    from {left: -100%;}
+    to {left: 0%;}
 }
 /* Standard syntax */
 @keyframes logo_move {
-    from {left: -1000px;}
-    to {left: 0px;}
+    from {left: -100%;}
+    to {left: 0%;}
 }
 .logo img{
     width: 100px;
     height: 80px;
     position: relative;
     -webkit-animation: logo_move 5s ; /* Chrome, Safari, Opera */
+    -moz-animation: logo_move 5s ;
     -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
-    animation: logo_move 5s ;
+    -moz-animation-delay: 2s;
+    animation: logo_move 3s ;
     animation-delay: 5s;
 }
