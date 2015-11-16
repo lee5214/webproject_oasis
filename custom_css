@@ -1,0 +1,37 @@
+.section-heading{
+    z-index:10000;
+}
+.section-bg-image{
+    opacity:0.5;
+}
+
+
+/**********************header background*******************/
+#header-wrap{
+    background: url(https://abs.twimg.com/a/1447194186/img/t1/lohp_streams_header_bg_v4.png) no-repeat fixed -1000px 0px;
+    transition: all 1s ease 0;
+}
+#header-wrap.smaller{
+    background-image:none;
+}
+
+
+/**********************logo animation*******************/
+@-webkit-keyframes mymove {
+    from {left: -1000px;}
+    to {left: 0px;}
+}
+/* Standard syntax */
+@keyframes logo_move {
+    from {left: -1000px;}
+    to {left: 0px;}
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    -webkit-animation: logo_move 5s ; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation: logo_move 5s ;
+    animation-delay: 5s;
+}
