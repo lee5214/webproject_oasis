@@ -1,18 +1,13 @@
-.section-heading{
-    z-index:10000;
+#intro{
+    background-color:black;
 }
-.section-bg-image{
-    opacity:0.5;
-}
-
-
-/**********************header background*******************/
-#header-wrap{
-    background: url(https://abs.twimg.com/a/1447194186/img/t1/lohp_streams_header_bg_v4.png) no-repeat fixed -1000px 0px;
-    transition: all 1s ease 0;
+body .btn-cta-intro{
+    background-color:transparent;
+    border-radius:14px;
 }
 #header-wrap.smaller{
     background-image:none;
+    height:0px;
 }/**********************header background*******************/
 
 
@@ -29,12 +24,12 @@
 }
 .logo img{
     width: 100px;
-    height: 80px;
+    height: 60px;
     position: relative;
     -webkit-animation: logo_move 5s ; /* Chrome, Safari, Opera */
     -moz-animation: logo_move 5s ;
     -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
     -moz-animation-delay: 2s;
-    animation: logo_move 3s ;
-    animation-delay: 5s;
+    animation: logo_move 6s ;
+    animation-delay: 0s;
 }
