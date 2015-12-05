@@ -1,5 +1,21 @@
+.intro-service-text{
+    color:black;
+}
+.intro-service-title{
+    color:black;
+}
+#footer{
+    background-color:#879299;
+}
+
+.overlay{
+
+     display: none !important;
+
+}
+
 #intro{
-    background-color:black;
+    background-color:white;
 }
 body .btn-cta-intro{
     background-color:transparent;
