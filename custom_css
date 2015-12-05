@@ -1,6 +1,3 @@
-.intro-service-text{
-    color:black;
-}
 .intro-service-title{
     color:black;
 }
@@ -49,3 +46,4 @@ body .btn-cta-intro{
     animation: logo_move 6s ;
     animation-delay: 0s;
 }
+
