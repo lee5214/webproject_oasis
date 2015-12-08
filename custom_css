@@ -1,5 +1,37 @@
+.section-bg-image{
+    opacity:0.2!important;
+}
+/*change header sliders to full responsive in small screen*/
+.bx-wrapper li{
+    opacity:0.7;
+    width:auto !important;
+    height:100%;
+}
+/*menu class setting*/
+.menu-sub{
+    color:white;
+    background-color:white;
+}
+/*
+.intro-title{
+    word-break:break-all;
+}
+*/
+#nav-menu-item-738 a,
+#nav-menu-item-748 a,
+#nav-menu-item-753 a{
+    color:green !important;
+    font-size:1.2em;
+}
+
+#nav-expander{
+    margin-top:0;
+}
+.intro-service-text{
+    color:white;
+}
 .intro-service-title{
-    color:black;
+    color:white;
 }
 #footer{
     background-color:#879299;
@@ -46,4 +78,3 @@ body .btn-cta-intro{
     animation: logo_move 6s ;
     animation-delay: 0s;
 }
-
