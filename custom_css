@@ -1,9 +1,26 @@
+/*header*/
+p.intro-tagline{
+    font-size:40px!important;
+    line-height:35px!important;
+}
+.intro-heading h4{
+    font-size:30px!important;
+    font-family:'Raleway'!important;
+}
+/*about*/
+img.mt-team-img.lazy{
+    border-radius:0%;
+    max-width:240px
+}
+img{
+    opacity:0.9;
+}
 .section-bg-image{
-    opacity:0.2!important;
+    /*opacity:0.2!important;*/
 }
 /*change header sliders to full responsive in small screen*/
 .bx-wrapper li{
-    opacity:0.7;
+    /*-opacity:0.7;*/
     width:auto !important;
     height:100%;
 }
@@ -34,7 +51,7 @@
     color:white;
 }
 #footer{
-    background-color:#879299;
+    background-color:#FFF;
 }
 
 .overlay{
@@ -48,11 +65,14 @@
 }
 body .btn-cta-intro{
     background-color:transparent;
-    border-radius:14px;
+}
+#header-wrap{
+    /*background-image:none;*/
+    /*height:10%;*/
 }
 #header-wrap.smaller{
-    background-image:none;
-    height:0px;
+    /*background-image:none;*/
+    height:8%;
 }/**********************header background*******************/
 
 
@@ -68,8 +88,8 @@ body .btn-cta-intro{
     to {left: 0%;}
 }
 .logo img{
-    width: 100px;
-    height: 60px;
+    width: 10%;
+    height: 10%;
     position: relative;
     -webkit-animation: logo_move 5s ; /* Chrome, Safari, Opera */
     -moz-animation: logo_move 5s ;
